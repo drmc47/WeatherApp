@@ -24,7 +24,8 @@ function Cards() {
 const Container = styled.div`
     height: 92vh;
     display: flex;
-    /* flex-wrap: wrap; */
+    padding-right: 20px;
+    flex-wrap: wrap;
 `
 
 export default Cards

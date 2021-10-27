@@ -1,5 +1,6 @@
 import axios from "axios"
 export const SEARCH_CITY = 'SEARCH_CITY'
+export const DELETE_CITY = 'DELETE_CITY'
 
 export const searchCity = (payload) => {
     return(dispatch) => {
@@ -12,3 +13,8 @@ export const searchCity = (payload) => {
         })
     }
 }
+
+export const deleteCity = (payload) => ({
+    type: DELETE_CITY,
+    payload
+})
